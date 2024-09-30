@@ -95,7 +95,7 @@ section {
 }
 
 .footer{
-    position: relative;
+    position: fixed;
     background-color: var(--border-top-color);
     color: var(--text-color);
     bottom: 0;
