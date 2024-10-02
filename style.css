@@ -27,7 +27,7 @@ body{
 }
 .header{
     position: fixed;
-    background: var(--second-bg-color);
+    background: rgba(149,225,211,0.8);
     color: var(--text-color);
     top: 0;
     left: 0;
@@ -36,8 +36,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     z-index: 5;
 }
 #menu-icon{
